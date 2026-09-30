@@ -50,28 +50,28 @@
                         </span>
                     </a>
                     <div class="d-flex align-items-center gap-2 order-lg-3 navbar-actions">
-                        <button
-                            class="theme-toggle"
-                            id="themeToggle"
-                            aria-label="Switch theme"
-                        >
-                            <i class="bi bi-moon-stars"></i></button
-                        ><a
-                            href="contact.html"
-                            class="btn btn-brand d-none d-sm-inline-flex"
-                            >Start a Project
-                            <i class="bi bi-arrow-up-right ms-1"></i></a
+                        <a
+                        href="contact.html"
+                        class="btn btn-brand d-none d-sm-inline-flex"
+                        >Start a Project
+                        <i class="bi bi-arrow-up-right ms-1"></i></a
                         ><button
-                            class="navbar-toggler"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#mainNav"
-                            aria-controls="mainNav"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNav"
+                        aria-controls="mainNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
                         >
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <button
+                        class="theme-toggle"
+                        id="themeToggle"
+                        aria-label="Switch theme"
+                    >
+                        <i class="bi bi-moon-stars"></i></button>
                     </div>
                     <div
                         class="collapse navbar-collapse justify-content-center"
@@ -199,13 +199,8 @@
                             <form
                                 id="contactForm"
                                 class="contact-card"
-                                onsubmit="
-                                    event.preventDefault();
-                                    alert(
-                                        'Thanks! Your enquiry form is ready to connect to your preferred backend.',
-                                    );
-                                "
-                            >
+                                >
+                                <!-- onsubmit="event.preventDefault(); alert('Thanks! Your enquiry form is ready to connect to your preferred backend.',);" -->
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <label class="form-label" for="name"
@@ -292,7 +287,8 @@
         <footer class="site-footer">
             <div class="container py-5">
                 <div class="row g-4 justify-content-between">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 d-flex flex-row">
+                        <img src="assets/logo.png" alt="The Digital Saathi" class="brand-logo f-logo">
                         <p class="footer-copy">
                             Digital marketing, websites and growth strategy for
                             businesses ready to move forward.
