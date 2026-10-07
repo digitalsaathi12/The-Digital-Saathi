@@ -81,7 +81,8 @@ document.querySelectorAll(".dropdown-menu .dropdown-item").forEach((link) => {
 const blogsContainer = document.getElementById("blogsContainer");
 
 if (blogsContainer) {
-    const API_URL = "http://127.0.0.1:8000/api/blogs/";
+    const API_URL =
+        "https://the-digital-saathi-backend.onrender.com/api/blogs/";
 
     async function loadBlogs() {
         try {
