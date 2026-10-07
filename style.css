@@ -624,9 +624,9 @@ html[data-theme="dark"] .navbar-toggler-icon {
     margin: auto;
 }
 
-.project-5 {
-    margin: 20px;
-}
+/* .project-5 {
+    margin: 10px;
+} */
 
 .project-visual {
     position: relative;
@@ -2218,7 +2218,7 @@ html[data-theme="dark"] #dsConceptBrowser {
     filter: drop-shadow(0 28px 0 color-mix(in srgb, var(--text) 15%, transparent)) drop-shadow(0 45px 25px rgba(0, 0, 0, .2));
 }
 
-#dsConceptSculpture .ds-sculpture-mark span:first-child {
+#dsConceptSculpture .ds-sculpture-mark span:nth-child(2) {
     color: var(--accent);
 }
 

@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://the-digital-saathi-backend.onrender.com";
 
 (() => {
     const root = document.documentElement;
